@@ -1,4 +1,4 @@
-// realizando as importações
+
 const express = require('express')
 const {
   addLivro,
@@ -8,7 +8,7 @@ const {
   deleteLivro
 } = require('../controllers/livroController')
 
-// inicializando as rotas do express
+
 const router = express.Router()
 
 router.get('/livro', getAllLivro)
