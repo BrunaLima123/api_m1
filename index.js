@@ -19,7 +19,6 @@ app.use(cors())
 app.use('/api', livrosRoutes.routes)
 
 
-
 app.listen(config.port, () =>
   console.log('API está rodando em http://localhost:' + config.port)
 )

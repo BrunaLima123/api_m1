@@ -14,7 +14,7 @@ class livroRepository{
     }
 async update(id, data){
 let livro = await firestore.collection('livros').doc(id)   
-let res = await livro.upodate(data) 
+let res = await livro.update(data) 
 return res
 }
 async getAll(){
